@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUNDA KANTONDI ALOISE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <br><br> <br><br><br> 
+    <label id="ville">VILLE DE LUBUMBASHI</label>
+    <label id="easy">&nbsp;&nbsp;&nbsp;&nbsp; EASY HTML.COM &nbsp;&nbsp;&nbsp;&nbsp;</label>           
+    <label id="rd">D.R CONGO.PRODUCTION</label><br><br>
+
+             
+    <div class="tab">
+       <button onclick="openOnglet(event, 'Accueil')" id="tablinks">Accueil</button>
+        <button onclick="openOnglet(event, 'A propos')" id="tablinks">A propos</button>
+        <button onclick="openOnglet(event, 'Module 1')" id="tablinks">Module 1</button>
+        <button onclick="openOnglet(event, 'Module 2')" id="tablinks">Module 2</button>
+        <button onclick="openOnglet(event, 'Module 3')" id="tablinks">Module 3</button>
+        <button onclick="openOnglet(event, 'telecmodule1')" id="tablinks">Télécharger Module 1</button>
+        <button onclick="openOnglet(event, 'telecmodule2')" id="tablinks">Télécharger Module 2</button> 
+   
+    </div>
+
+    <div class="imag1">
+        <img src="">
+        <div class="text1"><br>
+            <h3>SOYEZ LE VIEN VENU SUR NOTRE PAGE</h3>
+            <p>Nous allons vous parler  en quelques détails la création d'une page web <br> 
+                Avec quelques balises démandées <br>
+            </p>
+    </div>
+    </div>
+
+
+    <div class="tabcontent" id="A propos">
+        <div class="picture2">   
+            <div class="text">
+                <form id="fpropos">
+                    <h2><font color="red">Qu’est-ce que le langage HTML ?</font> </h2>
+                        <p>Le sigle HTML correspond à « HyperText Markup Language » que l’on peut traduire en français par « Langage HyperTextuel à balises ». 
+                            Il s’agit d’un langage informatique permettant de définir le contenu et la structure d’une page Web. De nombreuses technologies peuvent
+                            être utilisées pour définir les éléments d’une page Web, mais la base la plus minimaliste d’une page est construite en HTML.
+                        </p>
+                        <p>Le langage HTML est un langage de description sujet à interprétation. Le principe du langage est de décrire la structure et le contenu d’une page. 
+                            Il va permettre de définir les différentes zones d’affichages (en-tête, corps de la page, pied de page, menu, …) et d’intégrer son contenu (texte, image, tableau, vidéo, …).
+                        </p>
+                        <p>Cette description est lue par un navigateur (Firefox, Chrome, Edge, …) qui va interpréter le code afin de l’afficher. Cela implique qu’une même page peut donc s’afficher différemment en fonction du navigateur utilisé. Avant l’arrivée des règles d’interprétation de la version 5 du langage HTML, le code non-valide n’était pas interprété de la même manière par les navigateurs. Les navigateurs, plutôt permissifs, traitaient le code même s’il n’était pas valide. Ce qui donnait parfois des résultats surprenants. Les navigateurs modernes posent aujourd’hui beaucoup moins de problèmes en utilisant des règles d’interprétation standards pour le code non-valide.
+                        </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabcontent" id="Module 1">
+        <div class="picture">   
+            <div class="text">
+                <form id="fmodule1">
+                    <h2><font color="red">Introduction aux balises HTML</font></h2>
+                    <h3><font color="red"><em>Qu’est-ce qu’une balise ?</em> </font></h3>
+                        <p>Une balise ou « tag » en anglais est une commande interprétable par votre navigateur. En HTML, les commandes en question sont encadrées par le signe < (inférieur à) et > (supérieur à). Voici un exemple de balise HTML :
+                            <p><em>&lt;p>Hello world ! &lt;/p></em> </p> 
+
+                        </p>
+                        <p>Dans cet exemple, vous trouvez une balise dite « ouvrante » &lt;p> et une balise « fermante » &lt;/p>. Les balises fermantes sont identiques aux balises ouvrantes, mais contiennent un slash / en plus immédiatement après le signe <. Ces deux types de balises encadrent le contenu sur lequel elles s’appliquent.
+                        </p>
+                        <p>Les balises ouvrantes indiquent le début d’application d’une commande et les balises fermantes indiquent la fin d’application de la commande. La balise &lt;p>&lt;/p> permet de créer un paragraphe dans une page web. Le code précédent pourrait ainsi être lu par un humain :
+                        </p>
+                        <p><em>&lt;début_du_paragraphe>Hello World !&lt;/fin_du_paragraphe></em> </p>
+                    <h3><font color="red"><em>Balises orphelines ou autofermantes</em> </font></h3>
+                        <p>La plupart des éléments HTML sont écrits avec des couples de balises ouvrantes et fermantes. Mais certaines balises ne nécessitent pas de balise de fermeture, on les appelle les balises autofermantes ou orphelines.</p>
+                        <p>C’est le cas de la balise <br> qui permet d’ajouter un saut de ligne à l’intérieur d’un paragraphe. Vous pouvez voir dans l’exemple ci-dessous que cette balise n’a pas d’équivalent en balise de fermeture.</p>
+                        <p><em>&lt;p>Première ligne&lt;br>Deuxième ligne&lt;/p></p></em>
+                        <p>Exemple de code</p>
+                        <p>Nous avons vu pour le moment deux exemples de balises &lt;p>&lt;/p> et &lt;br>. Nous pouvons donc déjà commencer à écrire du code HTML.</p>
+                        <p>&lt;p>Bonjour,&lt;br> <br>
+                            Voici un exemple de code HTML qui utilise des paragraphes et des
+                            Sauts de ligne.&lt;/p>
+                            </p>
+                        <p>&lt;p>Comme vous pouvez le voir, je peux insérer <br>
+                            Des sauts de lignes dans le code HTML. Tant que je n’utilise <br>
+                            Pas la balise br, Ces sauts de ligne ne se verront pas…&lt;/p>
+                            </p>
+                </form>  
+            </div>
+        </div>
+    </div>
+
+    <div class="tabcontent" id="Module 2">
+        <div class="picture">   
+            <div class="text">
+                <form id="fmodule2">
+                    <h2><font color="red">Balises images et vidéos</font> </h2>
+                    <h3><font color="red"><em>Les bases pour intégrer une image</em> </font> </h3>
+                        <p>La balise HTML qui vous permettra d’insérer une image est la suivante : <em> &lt;img/>.</em> 
+                        </p>
+                        <p>Malgré le fait qu’elle peut contenir un large panel d’attributs, le seul et unique essentiel à son fonctionnement est l’attribut src.
+                        </p>
+                        <p>Cet attribut va vous permettre d’indiquer le chemin (absolu ou relatif) de votre image. Vous indiquerez donc dans cet attribut et entre guillemets où se trouve votre image sur votre ordinateur, serveur ou tout autre système d’hébergement.
+                        </p>
+                        <p>Imaginons que vous écriviez un article sur les ptérosaures et que vous souhaitiez intégrer une image de ptérodactyle à votre article. Vous allez par exemple récupérer une image sur Pixabay (en citant l’auteur en source).</p>
+                        <p>Téléchargez l’image libre de droits d’un ptérodactyle à partir du site Pixabay puis hébergez cette image sur votre serveur ou un hébergeur gratuit d’images (ex : goopics.net). Pour finir vous allez ajouter l’image sur votre site grâce à la balise <img/> comme ceci :</p>
+                        <p><em>&lt;img src= »https://i.goopics.net&lt;/em></p>
+                    <h4><font color="red"><em>Les autres attributs d’une image</em> </font> </h4>
+                        <p>Si vous souhaitez aller plus loin dans l’insertion de votre image sur votre site web vous allez pouvoir compléter votre balise &lt;img/> avec d’autres attributs autres que src.</p>
+                        <p>Parmi ces attributs on retrouvera : alt, title, height, width pour les plus connus.</p>
+                        <h3><font color="red"><em>Définition et utilisation de la Balise &lt;video></em> </font> </h3>
+                        <p>La balise &lt;video> du HTML permet de visionner un film (une vidéo) dans les pages de votre site Web. La balise video est une des nouveautés majeures et remarquable de HTML5. Actuellement, il existe 3 formats vidéo pris en charge pour l’élément &lt;video> qui sont : MP4, WebM et Ogg.</p>
+                        <p></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabcontent" id="Module 3">
+        <div class="picture4">   
+            <div class="text">
+                <form id="fmodule3">
+                    <h2><font color="red">Balises audio et tableau</font> </h2>
+                    <h3><font color="red"><em>La balise audio</em> </font> </h3>
+                        <p>L’élément HTML &lt;audio> est utilisé afin d’intégrer un contenu sonore dans un document. Il peut contenir une ou plusieurs sources audio représentées avec l’attribut src ou l’élément &lt;source> : le navigateur choisira celle qui convient le mieux.
+                        </p>
+
+                    <h3><font color="red"><em>La balise tableau</em> </font> </h3>
+                        <p>En HTML, un tableau se construit ligne par ligne. Dans chaque ligne ( &lt;tr> ), on indique le contenu des différentes cellules ( &lt;td> ). Schématiquement, un tableau se construit comme à la figure suivante. On a une balise de ligne ( &lt;tr> ) qui englobe un groupe de cellules ( &lt;td> ).</p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabcontent" id="telecmodule1">
+        <div class="picture6">   
+            <div class="text">
+                <form id="ftelecmodule1">
+                    <h2><font color="red">Quel format de fichier voulez-vous télécharger ?</font></h2>
+                    <p>PDF : <a href="PDF/module 1 html.pdf">Télécharger</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vidéo : <a href="videos/balise image, vidéo, audio.mp4" download="balise image, vidéo, audio">Télécharger</a></p>
+                </form>    
+            </div>
+        </div>
+    </div>
+
+    <div class="tabcontent" id="telecmodule2">
+        <div class="picture7">   
+            <div class="text">
+                <form id="ftelecmodule2">
+                    <h2><font color="red">Quel format de fichier voulez-vous télécharger ?</font></h2>
+                    <p>PDF : <a href="PDF/module 2 html.pdf">Télécharger</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vidéo : <a href="videos/33 - HTML_ Les tableaux (Introduction).mp4">Télécharger</a></p>
+                </form> 
+            </div>
+        </div>
+    </div><br>
+
+    <div class="logo"> 
+        <img id="face" src="logo/facebook (1).png">
+        <img id="twi" src="logo/twitter (1).png">
+        <img id="you" src="logo/youtube (3).png"> 
+    </div>
+    <div class="mail">
+        <label> RETOUR |</label>
+        <label>Envoyer Mail |</label>
+        <label>Contactez-nous</label><br><br>
+        <label>Copyright by EASY HTML.COM  - Pour la suite conctactez Aloisekantondi@gmail.Com</label>
+    </div> 
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

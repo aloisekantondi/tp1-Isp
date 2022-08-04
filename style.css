@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    background-color: rgb(44, 54, 92);
+}
+#easy{
+    background-color: #00f7ff;
+    color: chocolate;
+    font-family: Forte ;
+    font-size: 42px;
+    margin: 260px;
+}
+
+#ville{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    text-align: right;
+    margin-left: 1100px;
+}
+#rd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 249, 11);
+    text-align: right;
+    margin-left: 1100px;
+}
+
+.text1{
+    margin: 5px;
+    font-size: 35px;
+    color: rgb(23, 9, 148);
+    position: absolute;
+    top: 320px;
+    right: auto;
+}
+
+.text{
+    margin: 170px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: auto;
+    text-align: justify;
+}
+/*.picture{
+    margin: 0%;
+    width: 1290px;
+    height: 600px;
+    background-image: url(images/IMG_20211028_154201.jpg);
+    background-size: cover;
+}
+.picture2{
+    margin: 0%;
+    width: 1290px;
+    height: 600px;
+    background-image: url(images/IMG_8704.JPG);
+    background-size: cover;
+}*/
+.imag1{
+    margin: 0%;
+    width: 1348px;
+    height: 870px;
+    background-image: url(_MG_1362.JPG);
+    background-size: cover;
+}
+
+
+#fpropos{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+#fmodule1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+#fmodule2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+#fmodule3{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+#ftelecmodule1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+#ftelecmodule2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 20px;  
+}
+
+
+/*tab CSS*/
+.tab{
+    overflow: hidden;
+    background-color: rgb(8, 185, 8);
+}
+
+/*Style des buttons de tab*/
+.tab button{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: inherit;
+    letter-spacing: 2px;
+    float: left;
+    border: none;
+    outline: 0;
+    color: black;
+    cursor: pointer;
+    padding: 8px 25px;
+    transition: 0.5s;
+    font-size: 17px;
+}
+.tab button:hover{
+    background-color: white;
+}
+.tab button:active{
+    background-color: #8ab98a;
+}
+.tabcontent{
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    padding: 6px 50px;
+}
+
+.mail{
+    color: white;
+    text-align: right;
+    margin-right: 90px;
+}
+.logo{
+    margin-left: 200px;
+    size: 1px;
+    color: blue;
+}
+#face{
+    margin-left: 10px;
+}
+#twi{
+    margin-left: 10px;
+}
+#you{
+    margin-left: 10px;
+}
